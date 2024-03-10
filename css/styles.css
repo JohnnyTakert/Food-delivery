@@ -97,3 +97,27 @@ button {
 .header-btn:focus {
   background: #ffe450;
 }
+
+.hero {
+  padding-top: 14px;
+  padding-bottom: 69px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-wrap {
+  width: 511px;
+}
+
+.hero-title {
+}
+
+.hero-text {
+}
+
+.hero-btn {
+}

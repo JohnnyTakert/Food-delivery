@@ -19,6 +19,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header class="header">
       <div class="container header-container">
@@ -181,5 +182,49 @@
       </ul>
       <p>2022 FoodSta. All right reserved.</p>
     </footer>
+
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-close-btn" type="button">
+          <svg width="11" height="11" class="modal-close-icon">
+            <use href="./images/icons.svg#icon-Vector"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Order Form</p>
+        <form>
+          <div class="modal-field">
+            <label for="user-name" class="modal-label">Name</label
+            ><input
+              name="user-name"
+              id="user-name"
+              type="text"
+              class="modal-input"
+              placeholder="Jenny Wilson"
+            />
+          </div>
+          <div class="modal-field">
+            <label for="user-phon" class="modal-label">Phone number</label
+            ><input
+              name="user-phon"
+              id="user-phon"
+              type="tel"
+              class="modal-input"
+              placeholder="+38(099)444 22 11"
+            />
+          </div>
+          <div class="modal-field-email">
+            <label for="user-email" class="modal-label">E-mail</label
+            ><input
+              name="user-email"
+              id="user-email"
+              type="email"
+              class="modal-input"
+              placeholder="willie.jennings@example.com"
+            />
+          </div>
+          <button class="modal-send-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
